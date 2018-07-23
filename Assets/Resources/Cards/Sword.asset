@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b1452e27e00514ea8cf8421bc5152c, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  name: Sword
+  cost: 3
+  description: A medium melee weapon
+  art: {fileID: 21300000, guid: 31f7d0fb71298a94fb4510e7e574b895, type: 3}
+  healthChange: 5
+  type: {fileID: 1128829730889962, guid: 6607fae73e1f30045965571388ebc3fd, type: 2}
