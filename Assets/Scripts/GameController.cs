@@ -10,6 +10,11 @@ public class GameController : MonoBehaviour {
     public Image targeted;
     public DamageCard actionEffect;
 
+    public void Turns ()
+    {
 
+
+
+    }
 
 }
