@@ -15,6 +15,7 @@ public class EnemyScript : MonoBehaviour {
     public Image selected;
     public GameController controller;
     public float maxHealth;
+    public Text healthText;
 
     private void Start ()
     {
@@ -26,6 +27,7 @@ public class EnemyScript : MonoBehaviour {
         numerOfMoves = enemy.numberOfMoves;
         damage = enemy.damage;
         maxHealth = health;
+        healthText.text = health.ToString ();
         
     }
 
@@ -41,6 +43,8 @@ public class EnemyScript : MonoBehaviour {
             Destroy (gameObject);
 
         }
+
+        healthText.text = health.ToString ();
 
     }
 
